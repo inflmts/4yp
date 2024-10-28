@@ -1,0 +1,214 @@
+[[block]]
+title = "General Education"
+
+[[block.entry]]
+title = "Quest 1 (Q-1)"
+type = "reason"
+reason = "Q-1"
+
+[[block.entry]]
+title = "State Core Humanities (GE-SC-H)"
+type = "reason"
+reason = "GE-SC-H"
+
+[[block.entry]]
+title = "Quest 2 (Q-2)"
+type = "reason"
+reason = "Q-2"
+
+[[block.entry]]
+title = "State Core Soc/Beh Science (GE-SC-S)"
+type = "reason"
+reason = "GE-SC-S"
+
+[[block.entry]]
+title = "Soc/Beh Science (GE-S)"
+type = "reason"
+reason = "GE-S"
+
+[[block.entry]]
+title = "International (GE-N)"
+type = "reason"
+reason = "GE-N"
+
+[[block.entry]]
+title = "Diversity (GE-D)"
+type = "reason"
+reason = "GE-D"
+
+########################################
+
+[[block]]
+title = "Critical Tracking"
+
+[[block.entry]]
+title = "MAC2311 Analytic Geom & Calc 1"
+type = "course"
+course = "MAC2311"
+tag = "CT"
+
+[[block.entry]]
+title = "MAC2312 Analytic Geom & Calc 2"
+type = "course"
+course = "MAC2312"
+tag = "CT"
+
+[[block.entry]]
+title = "MAC2313 Analytic Geom & Calc 3"
+type = "course"
+course = "MAC2313"
+tag = "CT"
+
+[[block.entry]]
+title = "PHY2048 Physics with Calc 1"
+type = "course"
+course = "PHY2048"
+tag = "CT"
+
+[[block.entry]]
+title = "PHY2049 Physics with Calc 2"
+type = "course"
+course = "PHY2049"
+tag = "CT"
+
+[[block.entry]]
+title = "COP3502C or COP3504C"
+type = "or"
+operands = [
+  { type = "and", operands = [
+    { type = "course", course = "COP3502C" },
+    { type = "course", course = "COP3503C" }
+  ] },
+  { type = "course", course = "COP3504C" }
+]
+tag = "CT"
+
+########################################
+
+[[block]]
+title = "Major"
+
+[[block.entry]]
+title = "MAS3114 Computational Linear Algebra"
+type = "course"
+course = "MAS3114"
+tag = "M"
+
+[[block.entry]]
+title = "STA3032 Engineering Statistics"
+type = "course"
+course = "STA3032"
+tag = "M"
+
+[[block.entry]]
+title = "ENC3246 Professional Communication for Engineers"
+type = "course"
+course = "ENC3246"
+tag = "M"
+
+[[block.entry]]
+title = "Additional Writing/Public Speaking course"
+type = "reason"
+reason = "WPS"
+tag = "M"
+
+[[block.entry]]
+title = "COP3530 Data Structures and Algorithm"
+type = "course"
+course = "COP3530"
+tag = "M"
+
+[[block.entry]]
+title = "COT3100 Applications of Discrete Structures"
+type = "course"
+course = "COT3100"
+tag = "M"
+
+[[block.entry]]
+title = "CDA3101 Introduction to Computer Organization"
+type = "course"
+course = "CDA3101"
+tag = "M"
+
+[[block.entry]]
+title = "CEN3031 Introduction to Software Engineering"
+type = "course"
+course = "CEN3031"
+tag = "M"
+
+[[block.entry]]
+title = "CIS4301 Information and Database Systems 1"
+type = "course"
+course = "CIS4301"
+tag = "M"
+
+[[block.entry]]
+title = "CIS4914 or EGN4952"
+type = "or"
+operands = [
+  { type = "course", course = "CIS4914" },
+  { type = "course", course = "EGN4952" }
+]
+tag = "M"
+
+[[block.entry]]
+title = "CNT4007 Computer Network Fundamentals"
+type = "course"
+course = "CNT4007"
+tag = "M"
+
+[[block.entry]]
+title = "COP3503C or COP3504C"
+type = "or"
+operands = [
+  { type = "course", course = "COP3503C" },
+  { type = "course", course = "COP3504C" }
+]
+tag = "M"
+
+[[block.entry]]
+title = "COP4020 Programming Language Concepts"
+type = "course"
+course = "COP4020"
+tag = "M"
+
+[[block.entry]]
+title = "COP4533 Algorithm Abstraction and Design"
+type = "course"
+course = "COP4533"
+tag = "M"
+
+[[block.entry]]
+title = "COP4600 Operating Systems"
+type = "course"
+course = "COP4600"
+tag = "M"
+
+[[block.entry]]
+title = "EGS4034 or CGS3065"
+type = "or"
+operands = [
+  { type = "course", course = "EGS4034" },
+  { type = "course", course = "CGS3065" }
+]
+tag = "M"
+
+########################################
+
+[[block]]
+title = "Electives"
+
+[[block.entry]]
+title = "Interdisciplinary Electives (IE)"
+type = "reason"
+reason = "IE"
+credits = true
+min = 14
+
+[[block.entry]]
+title = "Technical Electives (TE)"
+type = "reason"
+reason = "TE"
+credits = true
+min = 18
+

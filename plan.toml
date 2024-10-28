@@ -1,0 +1,125 @@
+name = "Daniel Li"
+start = 2024
+
+########################################
+# Transfer
+
+[[transfer]]
+id = "ENC1101"
+name = "Expos and Argu Writing"
+credits = 3
+words = 6000
+reason = ["GE-SC-C"]
+
+[[transfer]]
+id = "MAC2311"
+name = "Analytic Geometry & Calculus 1"
+credits = 4
+
+[[transfer]]
+id = "MAC2312"
+name = "Analytic Geometry & Calculus 2"
+credits = 4
+
+[[transfer]]
+id = "MAC2313"
+name = "Analytic Geometry & Calculus 3"
+credits = 4
+
+[[transfer]]
+id = "PHY2048"
+name = "Physics with Calculus 1"
+credits = 3
+
+[[transfer]]
+id = "PHY2048L"
+name = "Physics with Calculus 1 Lab"
+credits = 1
+
+[[transfer]]
+id = "PHY2049"
+name = "Physics with Calculus 2"
+credits = 3
+
+[[transfer]]
+id = "PHY2049L"
+name = "Physics with Calculus 2 Lab"
+credits = 1
+
+[[transfer]]
+id = "POS2041"
+name = "American Federal Government"
+credits = 3
+reason = ["GE-SC-S"]
+
+########################################
+# Year 1 Fall
+
+[[1fa]]
+id = "ARH2000"
+name = "Art Appreciation"
+credits = 3
+reason = ["GE-SC-H", "GE-D"]
+
+[[1fa]]
+id = "COP3504C"
+name = "Advanced Programming Fundamentals"
+credits = 4
+
+[[1fa]]
+id = "COT3100"
+name = "Discrete Structures"
+credits = 3
+
+[[1fa]]
+id = "STA3032"
+name = "Engineering Statistics"
+credits = 3
+
+########################################
+# Year 1 Spring
+
+[[1sp]]
+id = "CIS4301"
+name = "Info & Database Systems"
+credits = 3
+prereqs = ["COP3504C", "COT3100"]
+
+[[1sp]]
+id = "CDA3101"
+name = "Introduction to Computer Organization"
+credits = 3
+prereqs = ["COP3504C", "COT3100"]
+
+[[1sp]]
+id = "COP3530"
+name = "Data Structures and Algorithm"
+credits = 3
+prereqs = ["COP3504C", "COT3100"]
+
+[[1sp]]
+id = "LIN1140"
+name = "Language and Emotion"
+credits = 3
+reason = ["Q-1"]
+
+[[1sp]]
+id = "MAS3114"
+name = "Computational Linear Algebra"
+credits = 3
+
+########################################
+# Year 2 Fall
+
+[[2fa]]
+id = "COP4020"
+name = "Programming Language Concepts"
+credits = 3
+prereqs = ["COP3530"]
+
+[[2fa]]
+id = "COP4600"
+name = "Operating Systems"
+credits = 3
+prereqs = ["CDA3101", "COP3530"]
+
